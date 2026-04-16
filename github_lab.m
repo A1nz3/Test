@@ -13,3 +13,10 @@ else
     disp('Z podanych boków nie można utworzyć trójkąta!');
 end
 
+%%Square
+
+a = input("Podaj długość a:");
+
+area = a*a;
+
+disp("Twoje pole wynosi: " + area);
