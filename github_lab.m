@@ -13,10 +13,27 @@ else
     disp('Z podanych boków nie można utworzyć trójkąta!');
 end
 
-%%Square
+%% Square
 
 a = input("Podaj długość a:");
 
 area = a*a;
 
 disp("Twoje pole wynosi: " + area);
+
+
+%% Circle
+
+r = input('Podaj długość promienia r: ');
+
+
+if (r > 0)
+    area = pi*r^2;
+    disp("Pole koła wynosi: " + area)
+
+else
+    disp("Nie można policzyć pola koła")
+end
+
+
+
